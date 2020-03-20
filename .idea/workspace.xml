@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1107ead5-ef95-4fe8-be45-5108fb272d30" name="Default Changelist" comment="" />
+    <list default="true" id="1107ead5-ef95-4fe8-be45-5108fb272d30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/my_model_stacked_denoising_gaussian.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/my_model_stacked_denoising_gaussian.ckpt.meta" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,53 +19,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Undercomplete Linear.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3069">
-              <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13431">
-              <caret line="411" column="10" selection-start-line="411" selection-start-column="10" selection-end-line="411" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder(비지도).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4587">
-              <caret line="143" column="44" selection-start-line="131" selection-end-line="143" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Denoising Auencoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6666">
-              <caret line="206" column="14" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Sparse Auencoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5379">
-              <caret line="167" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="256">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+              <folding>
+                <element signature="e#45#68#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/Variational Auencoder.py">
+        <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
+            <state>
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#45#68#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,14 +55,17 @@
       <find>show_reconstructed_digits</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example/Undercomplete Linear.py" />
         <option value="$PROJECT_DIR$/example/Stacked Auencoder.py" />
         <option value="$PROJECT_DIR$/example/Denoising Auencoder.py" />
         <option value="$PROJECT_DIR$/example/Sparse Auencoder.py" />
         <option value="$PROJECT_DIR$/example/Variational Auencoder.py" />
+        <option value="$PROJECT_DIR$/example/Undercomplete Linear.py" />
       </list>
     </option>
   </component>
@@ -96,17 +75,39 @@
     <option name="width" value="974" />
     <option name="height" value="1041" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Autoencoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoencoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoencoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoencoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigData_Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mxnet_Model_Zoo" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -162,45 +163,54 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/Undercomplete Linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3069">
-          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13431">
-          <caret line="411" column="10" selection-start-line="411" selection-start-column="10" selection-end-line="411" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder(비지도).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4587">
-          <caret line="143" column="44" selection-start-line="131" selection-end-line="143" selection-end-column="44" />
+        <state relative-caret-position="363">
+          <caret line="152" column="16" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Denoising Auencoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6666">
-          <caret line="206" column="14" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+        <state relative-caret-position="355">
+          <caret line="219" column="26" lean-forward="true" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Sparse Auencoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5379">
+        <state relative-caret-position="487">
           <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Variational Auencoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="487">
           <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Undercomplete Linear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
