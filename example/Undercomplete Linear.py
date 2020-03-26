@@ -70,7 +70,8 @@ from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 X_train = scaler.fit_transform(data[:100])
 X_test = scaler.transform(data[100:])
-
+X_train.shape
+X_test.shape
 reset_graph()
 
 ################
@@ -83,7 +84,7 @@ n_outputs = n_inputs
 # autoencoder
 X = tf.placeholder(tf.float32, shape=[None, n_inputs])
 hidden = tf.layers.dense(X, n_hidden)
-outputs = tf.layers.dense(hidden, n_outputs)
+outputs = tf.layers.dense(hidden, n_outputs)    # PCA를 위해 따로 활성화 함수를 지정해주지 않아 모든 뉴런이 선형임
 
 ################
 # Train params #

@@ -1,4 +1,4 @@
-### Undercomplete Autoencoder
+### Denoising Autoencoder
 
 
 
@@ -204,17 +204,3 @@ show_reconstructed_digits(inputs, outputs, './model/my_model_stacked_denoising_d
 
 ########################################################################################################################
 ########################################################################################################################
-# Sparse 오토인코더
-
-p = 0.1
-q = np.linspace(0.001, 0.999, 500)
-kl_div = p * np.log(p / q) + (1 - p) * np.log((1 - p) / (1 - q))
-mse = (p - q)**2
-plt.plot([p, p], [0, 0.3], "k:")
-plt.text(0.05, 0.32, "목표 희소", fontsize=14)
-plt.plot(q, kl_div, "b-", label="쿨백 라이블러 발산")
-plt.plot(q, mse, "r--", label="MSE")
-plt.legend(loc="upper left")
-plt.xlabel("실제 희소")
-plt.ylabel("비용", rotation=0)
-plt.axis([0, 1, 0, 0.95]);

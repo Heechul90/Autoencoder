@@ -1,4 +1,4 @@
-### Undercomplete Autoencoder
+### Stacked Autoencoder
 
 
 
@@ -400,13 +400,3 @@ show_reconstructed_digits(inputs, outputs, './model/my_model_one_at_a_time.ckpt'
 
 ########################################################################################################################
 ########################################################################################################################
-# 특성 시각화
-with tf.Session() as sess:
-    saver.restore(sess, "./model/my_model_one_at_a_time.ckpt")
-    W1_val = W1.eval()
-
-for i in range(5):
-    plt.subplot(1, 5, i + 1)
-    plot_image(W1_val.T[i])
-
-plt.show()
