@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1107ead5-ef95-4fe8-be45-5108fb272d30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Denoising Auencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/Denoising Auencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Stacked Auencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/Stacked Auencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Undercomplete Linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/Undercomplete Linear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoencoder.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Sparse Auencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/Sparse Auencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/my_model_one_at_a_time.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/my_model_one_at_a_time.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/my_model_stacked_denoising_dropout.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/stacked_ae.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/stacked_ae.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/stacked_ae_tying.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/stacked_ae_tying.ckpt.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/Undercomplete Linear.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3077">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="426">
+              <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
               <folding>
                 <element signature="e#45#68#0" expanded="true" />
               </folding>
@@ -35,9 +28,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Sparse Auencoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5544">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="13134">
               <caret line="402" selection-start-line="402" selection-end-line="402" />
               <folding>
                 <element signature="e#39#62#0" expanded="true" />
@@ -76,17 +78,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example/Sparse Auencoder.py" />
         <option value="$PROJECT_DIR$/example/Variational Auencoder.py" />
         <option value="$PROJECT_DIR$/example/Undercomplete Linear.py" />
         <option value="$PROJECT_DIR$/example/Denoising Auencoder.py" />
         <option value="$PROJECT_DIR$/example/Stacked Auencoder.py" />
+        <option value="$PROJECT_DIR$/example/Sparse Auencoder.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1867" />
-    <option name="y" value="84" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -122,7 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../K-Sparse-AutoEncoder" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -156,10 +158,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -172,7 +173,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.16481069" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.37973273" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,34 +187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/Sparse Auencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/Variational Auencoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Denoising Auencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="402" selection-start-line="402" selection-end-line="402" />
-          <folding>
-            <element signature="e#39#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -237,11 +214,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Undercomplete Linear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3077">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="426">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
           <folding>
             <element signature="e#45#68#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Sparse Auencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5544">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Stacked Auencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13134">
+          <caret line="402" selection-start-line="402" selection-end-line="402" />
+          <folding>
+            <element signature="e#39#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Denoising Auencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>

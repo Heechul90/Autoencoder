@@ -7,7 +7,7 @@ import tensorflow as tf
 
 import os, sys
 import numpy as np
-import tensorflow as tf
+import tensorflow as tfE
 
 
 # 일관된 출력을 위해 유사난수 초기화
@@ -169,3 +169,4 @@ with tf.Session() as sess:
 
 
 show_reconstructed_digits(inputs, outputs, "./model/my_model_sparse.ckpt")
+
